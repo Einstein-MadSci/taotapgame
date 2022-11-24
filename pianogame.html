@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piano Game</title>
+    <link rel="stylesheet" type="text/css" href="pianogame.css" />
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="game-container">
+      <div id="song-select-page">
+        <div id="note-and-diamond-counters">
+          <div id="note-div">
+            <img src="Exports/Musical Note.jpg" id="note-counter-image" /><span
+              id="note-count"
+            ></span>
+          </div>
+          <div id="diamond-div">
+            <img src="Exports/Diamond.jpg" id="diamond-counter-image" /><span
+              id="diamond-count"
+            ></span>
+          </div>
+        </div>
+
+        <h2 id="current-song">Feliz Navidad - Dog Piano</h2>
+        <button
+          class="btn btn-outline-secondary d-grid gap-2 col-6 mx-auto"
+          style="
+            --bs-btn-padding-y: 0.5rem;
+            --bs-btn-padding-x: 1.5rem;
+            --bs-btn-font-size: 1.5rem;
+          "
+          id="play-button"
+        >
+          PLAY
+        </button>
+        <div id="song-choices">
+          <div class="seperator" id="canon">
+            <p>Canon in D - Dog Piano</p>
+            <button class="play-group btn btn-outline-primary" id="play-canon">
+              PLAY
+            </button>
+          </div>
+          <div class="seperator" id="minor-bach">
+            <p>G Minor Bach Dog Piano</p>
+            <button
+              class="play-group btn btn-outline-primary"
+              id="play-minor-bach"
+            >
+              PLAY
+            </button>
+          </div>
+          <div class="seperator" id="first=snow">
+            <p>First Snow</p>
+            <button
+              class="play-group btn btn-outline-primary"
+              id="play-first-snow"
+            >
+              PLAY
+            </button>
+          </div>
+        </div>
+
+        <div id="navigation-flex">
+          <img src="Exports/House.jpg" />
+
+          <img src="Exports/Musical Note 2.jpg" />
+
+          <img src="Exports/Magnifying Glass.jpg" />
+
+          <img src="Exports/Gear.jpg" />
+        </div>
+      </div>
+    </div>
+    <script src="pianogame.js"></script>
+  </body>
+</html>

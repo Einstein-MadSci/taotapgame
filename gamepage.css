@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.private-container {
+  height: 10vh;
+  padding: 0px;
+  margin: 0px;
+  background-image: linear-gradient(#98789b, purple);
+}
+
+.lane {
+  /* height: 80%; */
+  /* border: 1px solid blue; */
+  padding: 0px;
+  margin: 0px;
+}
+
+.moving-boxes {
+  height: 20vh;
+  width: 100%;
+}
+
+.score-and-current-song {
+  background: white;
+  height: 20vh;
+}
+
+#play-button {
+  position: relative;
+  top: 10%;
+  left: 40%;
+}
+
+.top-row {
+  height: 80vh;
+}
+
+.bottom-row {
+  height: 20vh;
+}
+
+.m1 {
+  background-color: #98789b;
+}
+
+.m2 {
+  background-color: blue;
+}

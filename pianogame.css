@@ -1,0 +1,97 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  border: 1px solid;
+  /* overflow: hidden; */
+}
+
+#game-container {
+  width: 400px;
+  height: 680px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, cyan, purple);
+}
+
+#note-and-diamond-counters {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+}
+
+#note-div {
+  margin-top: 20px;
+  margin-left: 60px;
+  /* margin-right: 200px; */
+  height: 20px;
+  border: 1px solid black;
+  background: grey;
+  border-radius: 50px;
+  min-width: 100px;
+}
+
+#diamond-div {
+  margin-top: 20px;
+  margin-right: 500px;
+  margin-left: 90px;
+  height: 20px;
+  border: 1px solid black;
+  background: grey;
+  border-radius: 50px;
+  min-width: 100px;
+}
+
+#play-button {
+  border-radius: 20px;
+  background-color: rgba(211, 211, 211, 0.8);
+}
+
+#song-choices {
+  background-image: linear-gradient(purple, cyan);
+  margin-top: 50px;
+  color: white;
+  font-size: large;
+  text-align: center;
+}
+
+#current-song {
+  color: white;
+  text-align: center;
+}
+
+.play-group {
+  position: relative;
+  top: 10%;
+  left: 40%;
+  background-image: linear-gradient(to right, purple, cyan);
+  border: solid 3px white;
+  color: blue;
+}
+
+.seperator {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: rgba(211, 211, 211, 0.8) solid 1px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+#navigation-flex img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 25px;
+}
+
+#navigation-flex {
+  display: flex;
+  flex-direction: row;
+}
